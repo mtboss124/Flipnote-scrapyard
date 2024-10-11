@@ -1,0 +1,19 @@
+<?php
+// Retrieve values from the URL parameters
+$CreatorID = isset($_GET['creatorid']) ? htmlspecialchars($_GET['creatorid']) : 'Guest';
+$Filename = isset($_GET['filename']) ? htmlspecialchars($_GET['filename']) : 0;
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipnote Database</title>
+    <script src="https://cdn.jsdelivr.net/npm/flipnote.js@5/dist/flipnote.webcomponent.min.js"></script>
+</head>
+<body>
+    <h1>Flipnote by <?=$CreatorID?></h1>
+               <flipnote-player class="fplayer" src="database/creators/<?=$CreatorID?>/<?=$Filename?>.ppm"></flipnote-player>
+ 
+</body>
+</html>

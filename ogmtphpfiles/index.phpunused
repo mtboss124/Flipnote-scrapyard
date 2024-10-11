@@ -1,0 +1,67 @@
+<?php
+
+class Database {
+    private $newest;
+    private $creator;
+
+    public function __construct() {
+        $this->newest = [];
+        $this->creator = [];
+
+        // Load database entries from the file
+        $this->loadDatabase();
+    }
+
+    private function loadDatabase() {
+        $filename = "database/new_flipnotes.dat"; // Path to your database file
+
+        if (file_exists($filename)) {
+            $file = file_get_contents($filename);
+            if ($file) {
+                $this->newest = array_map(function($line) {
+                    return explode("\t", trim($line));
+                }, explode("\n", $file));
+            }
+        }
+    }
+
+    public function getNewest() {
+        return $this->newest;
+    }
+
+    // Additional methods can be added here...
+}
+
+// Display script
+$db = new Database();
+$newestEntries = $db->getNewest();
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipnote Database</title>
+    <script src="https://cdn.jsdelivr.net/npm/flipnote.js@5/dist/flipnote.webcomponent.min.js"></script>
+</head>
+<body>
+    <h1>Newest Flipnotes</h1>
+    <ul>
+        <?php if (empty($newestEntries)): ?>
+            <li>No entries found.</li>
+        <?php else: ?>
+            <?php foreach ($newestEntries as $entry): ?>
+                <li>
+                    <a href="videoplayer.php?creatorid=<?= htmlspecialchars($entry[0]) ?>&filename=<?= htmlspecialchars($entry[1]) ?>">
+                <flipnote-image class="fplayer" src="database/creators/<?= htmlspecialchars($entry[0]) ?>/<?= htmlspecialchars($entry[1]) ?>.ppm"></flipnote-image>
+                </a>
+                    <strong>Creator ID:</strong> <?= htmlspecialchars($entry[0]) ?><br>
+                    <strong>Filename:</strong> <?= htmlspecialchars($entry[1]) ?>
+                </li>
+            <?php endforeach; ?>
+        <?php endif; ?>
+    </ul>
+</body>
+</html>

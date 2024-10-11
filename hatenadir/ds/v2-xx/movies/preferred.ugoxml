@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ugo_xml>
+	<layout>
+		<value>2</value>
+		<value>1</value>
+	</layout>
+	<title>
+		<label>All Flipnotes</label>
+		<label>Flipnotes</label>
+		<label>89</label>
+		<label />
+		<label>The most popular new Flipnotes.</label>
+		<num>0</num>
+	</title>
+	<category>
+		<label>@Most Popular</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/hotmovies.uls</address>
+		<selected>true</selected>
+	</category>
+	<category>
+		<label>@Recommended</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/movies.uls?mode=recommend</address>
+		<selected>false</selected>
+	</category>
+	<category>
+		<label>@New Flipnotes</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/movies.uls?mode=safe</address>
+		<selected>false</selected>
+	</category>
+	<category>
+		<label>@New Favourites</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/following.uls</address>
+		<selected>false</selected>
+	</category>
+	<post>
+		<label>Post Flipnote</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/help/post_howto.htm</address>
+	</post>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9B5289C0CEFB9ACD/FB9ACD_0C7A82C5A936E_029.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">17228</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\FB9ACD_0C7A82C5A936E_029.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90E2EB50AA425DB5/425DB5_0C956D15B0FF9_005.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">3825</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\425DB5_0C956D15B0FF9_005.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/95CDA8B000A8D8D9/A8D8D9_0C99A8DA6DA11_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">753</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\A8D8D9_0C99A8DA6DA11_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9165D8F0007149D6/7149D6_0C9948EE5951B_001.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1056</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\7149D6_0C9948EE5951B_001.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/91A7E0300072CA51/72CA51_0C98AC54D21F3_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1965</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\72CA51_0C98AC54D21F3_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9AD163C0CC79021B/79021B_0C6756FA60B2E_166.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">10474</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\79021B_0C6756FA60B2E_166.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/993E2FD0CE2201F0/2201F0_0C991BC765A8F_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">2716</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\2201F0_0C991BC765A8F_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/98EFA1105120B72D/20B72D_0C99F58E9EC55_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">3769</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\20B72D_0C99F58E9EC55_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/98A633F0094BE3E0/4BE3E0_0C987049D1BAD_009.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1360</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\4BE3E0_0C987049D1BAD_009.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/97B28D9051D75948/D75948_0C98B9A868CD7_048.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">2733</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\D75948_0C98B9A868CD7_048.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/95D09D30E110A189/10A189_0C9888DB54CB4_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">6732</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\10A189_0C9888DB54CB4_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9BC756B07FDB4024/DB4024_0C957A411F3CC_018.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">21868</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\DB4024_0C957A411F3CC_018.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9BD86810A0FAC2DD/FAC2DD_0C9740E4FA3EA_015.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1078</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\FAC2DD_0C9740E4FA3EA_015.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/932CE590275710F8/5710F8_0C6DFF26BE3C1_002.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">6027</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\5710F8_0C6DFF26BE3C1_002.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/943B0E505122A1A1/22A1A1_0C995390C54C9_006.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">2458</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\22A1A1_0C995390C54C9_006.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/96930C301E39AED0/39AED0_0022477BE5EFC_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1208</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\39AED0_0022477BE5EFC_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9EB9CD7059A0C276/A0C276_0C974C1BD1B89_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">33241</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\A0C276_0C974C1BD1B89_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9E0F17F0CC6F24E0/6F24E0_0C994EED567B9_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">7827</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\6F24E0_0C994EED567B9_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9E80ED60C58CC061/8CC061_0C9936E4BAD28_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">829</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\8CC061_0C9936E4BAD28_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90EFFDC05118CDB1/18CDB1_0C8AEAB892363_006.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">473</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\18CDB1_0C8AEAB892363_006.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/904F1EA051E5CD9B/E5CD9B_0C98C4209881C_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1600</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\E5CD9B_0C98C4209881C_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90772E70599464A8/9464A8_0C989A347F7F4_002.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1384</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\9464A8_0C989A347F7F4_002.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/974B2160A0C4C1F0/C4C1F0_0C998602CAE4F_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1457</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\C4C1F0_0C998602CAE4F_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9819A470514CD144/4CD144_0C856F63C370A_059.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">5051</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\4CD144_0C856F63C370A_059.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/921F2C001E26A35A/26A35A_00107C93B9E1E_014.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1441</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\26A35A_00107C93B9E1E_014.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9B6C2BD00942FCEB/42FCEB_0B52256B16311_012.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">3271</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\42FCEB_0B52256B16311_012.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/92FBC4E0517C22C2/7C22C2_0C968F09DC78E_001.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">715</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\7C22C2_0C968F09DC78E_001.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/94DF30302745A402/45A402_0C96812292A53_009.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">16127</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\45A402_0C96812292A53_009.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9D39B5300074B8D9/74B8D9_0C99DA54E8DB5_001.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">393</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\74B8D9_0C99DA54E8DB5_001.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/97606310A0DFE565/DFE565_0C995F1403E68_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">362</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\DFE565_0C995F1403E68_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/932CE590275710F8/5710F8_0C99135A54A1B_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">589</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\5710F8_0C99135A54A1B_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/93CDC910CE1E55C0/1E55C0_0C99146FC0307_004.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">4306</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\1E55C0_0C99146FC0307_004.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/95CDA8B000A8D8D9/A8D8D9_0C98F9A9B65B0_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">578</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\A8D8D9_0C98F9A9B65B0_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90DE3D50CE2A7784/2A7784_0C989E7A5CA46_003.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1440</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\2A7784_0C989E7A5CA46_003.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/92FBC4E0517C22C2/7C22C2_0C9520FC2B2BA_012.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1184</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\7C22C2_0C9520FC2B2BA_012.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9A4E6A70CE241499/241499_0C9660890C85E_012.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">100</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\241499_0C9660890C85E_012.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9D53ED50F3658B15/658B15_0C98BCF1BDFB6_002.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1638</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\658B15_0C98BCF1BDFB6_002.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/94DFA9F0C5EAD9C2/EAD9C2_0CA1CB99F8FA9_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1220</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\EAD9C2_0CA1CB99F8FA9_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90EFFDC05118CDB1/18CDB1_0C97EA639F79B_007.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">3447</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\18CDB1_0C97EA639F79B_007.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9EAE6AD0C5F21C71/F21C71_0C315AFD893AF_007.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">2020</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\F21C71_0C315AFD893AF_007.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/90A6B410C5FBED0B/FBED0B_0C972402949A9_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">4630</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\FBED0B_0C972402949A9_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/91D36520CC71A194/71A194_0C9678F98F93E_003.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">3466</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\71A194_0C9678F98F93E_003.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/964933A051446F33/446F33_0C3DAD4993283_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">4130</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\446F33_0C3DAD4993283_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/904F1EA051E5CD9B/E5CD9B_0C9811316FAEC_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">9019</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\E5CD9B_0C9811316FAEC_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9D3204D05142889B/42889B_0C92C383F00B4_015.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1011</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\42889B_0C92C383F00B4_015.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/99059CC0C59A967A/9A967A_0C993BFE58539_011.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">2923</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\9A967A_0C993BFE58539_011.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9D127AB05146448F/46448F_0C9996CBB68AB_000.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">11213</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\46448F_0C9996CBB68AB_000.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/9909AA8027488091/488091_0C98B2D60AE5D_015.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">300</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\488091_0C98B2D60AE5D_015.tmb</embedded_file>
+	</button>
+	<button>
+		<label />
+		<address>http://flipnote.hatena.com/ds/v2-us/movie/92E54F2051D93BDC/D93BDC_0C98750244A9A_010.ppm</address>
+		<trait>3</trait>
+		<value tip="stars">1365</value>
+		<value>765</value>
+		<value>573</value>
+		<value>0</value>
+		<embedded_file>preferred.ugoxml embedded\D93BDC_0C98750244A9A_010.tmb</embedded_file>
+	</button>
+	<button>
+		<label>Next</label>
+		<address>http://flipnote.hatena.com/ds/v2-us/hotmovies.uls?page=2</address>
+		<trait>115</trait>
+		<value />
+		<value />
+	</button>
+</ugo_xml>

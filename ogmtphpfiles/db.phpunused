@@ -1,0 +1,82 @@
+<?php
+
+class Database {
+    private $newest;
+    private $creator;
+
+    public function __construct() {
+        $this->newest = [];
+        $this->creator = [];
+
+        // Load database entries from the file
+        $this->loadDatabase();
+    }
+
+    private function loadDatabase() {
+        $filename = "database/new_flipnotes.dat"; // Path to your database file
+
+        if (file_exists($filename)) {
+            $file = file_get_contents($filename);
+            if ($file) {
+                $this->newest = array_map(function($line) {
+                    return explode("\t", trim($line));
+                }, explode("\n", $file));
+            }
+        }
+    }
+
+    public function addFlipnote($creatorID, $filename) {
+        // Check if the flipnote already exists
+        if ($this->flipnoteExists($creatorID, $filename)) {
+            return false; // Already exists
+        }
+
+        // Add to the newest list
+        $this->newest[] = [$creatorID, $filename];
+        $this->creator[$creatorID][] = [$filename, 0, 0, 0, 0, 0, 0, "", 0]; // Add creator data
+
+        // Save changes
+        $this->save();
+        return [$creatorID, $filename];
+    }
+
+    public function flipnoteExists($creatorID, $filename) {
+        foreach ($this->creator[$creatorID] ?? [] as $flipnote) {
+            if ($flipnote[0] == $filename) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private function save() {
+        $filename = "database/new_flipnotes.dat";
+        
+        // Trim to 5000 newest entries
+        if (count($this->newest) > 5000) {
+            $this->newest = array_slice($this->newest, 0, 5000);
+        }
+
+        // Write to the file
+        $data = implode("\n", array_map(function($item) {
+            return implode("\t", $item);
+        }, $this->newest));
+        file_put_contents($filename, $data);
+        
+        // Save creator data (additional logic can be added here)
+        foreach ($this->creator as $id => $flipnotes) {
+            $creatorFilename = "database/Creators/$id/flipnotes.dat";
+            $creatorData = implode("\n", array_map(function($item) {
+                return implode("\t", $item);
+            }, $flipnotes));
+            file_put_contents($creatorFilename, $creatorData);
+        }
+    }
+}
+
+// Usage example
+$db = new Database();
+$db->addFlipnote('5D96C84000717BAE', '112233_1737242FE4D13_000');
+
+?>
+

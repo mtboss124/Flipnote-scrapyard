@@ -1,0 +1,7 @@
+# No Directory Indexing
+#Options -Indexes
+#DirectoryIndex "index.php"
+#RewriteEngine On
+# Redirect .ugo and .txt to .php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)\.(ugo|txt)$ $1.php [L]
