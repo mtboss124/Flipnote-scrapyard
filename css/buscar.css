@@ -1,0 +1,66 @@
+body {
+    background-image: url("../img/fondito.jpg");
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #524d4d;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none; 
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .nav-left{
+    float: left;
+  }
+  .nav-left img {
+    height: 20px;
+    vertical-align: middle;
+  }
+  /* Current/active navbar link */
+  .active {
+    background-color: #e09659;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+.search-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-container h1 {
+    color: #4CAF50;
+}
+
+.search-container input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.search-container .tip {
+    color: #555;
+}

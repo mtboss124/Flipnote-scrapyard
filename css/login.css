@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #b8ccd8; /* Color de fondo característico */
+  align-items: center;
+  min-height: 100svh;
+  font-size: larger;
+
+}
+
+.form-container{
+  width: 500px;
+  background-color: #dceaee;
+ box-shadow:10px,10px, #465456;
+  padding: 50px;
+  outline-style:solid;
+  outline-color: #64878c;
+  outline-width: 5px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form+p, form p {
+  text-align: center;
+}
+
+input, button{
+  border-radius: 4px;
+  border: unset;
+  padding: 15px 30px;
+  font-size: larger;
+}
+
+button{
+  background-color: #afe9df;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: #64878c;
+  color: #afe9df;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error{
+  color: rgb(255, 81, 81);
+}
+
+.escondido{
+  display: none;
+}
+
+.sr-only{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+ /* Style the navigation bar */
+ .navbar {
+  position: fixed;
+  top:0px;
+  width: 100%;
+  background-color: #282c3c;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none; 
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #464762;
+}
+.nav-left{
+  float: left;
+}
+.nav-left img {
+  height: 20px;
+  vertical-align: middle;
+}
+/* Current/active navbar link */
+.active {
+  background-color: #464762;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+} 
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ /* unvisited link */
+ a:link {
+  color: #8ac4c3;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #8ac4c3;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #465456;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #465456;
+  text-decoration: underline;
+} 
+/* flipnote art stuff u already know */
+.fplayer{
+  z-index: -99;
+
+}
+
+.scrollingflip{
+z-index: -99;
+position: fixed;
+animation-name: scrollflip;
+animation-duration: 10s; 
+
+}
+@keyframes scrollflip{
+
+  from {left:-10vw;}
+  to {left:110vw ;}
+}
+

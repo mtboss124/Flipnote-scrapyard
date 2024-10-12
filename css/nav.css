@@ -1,0 +1,52 @@
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: #524d4d;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none; 
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .nav-left{
+    float: left;
+  }
+  .nav-left img {
+    height: 20px;
+    vertical-align: middle;
+  }
+  /* Current/active navbar link */
+  .active {
+    background-color: #e09659;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+  .main-content {
+    background-color: #ffffffce;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main-content h1 {
+    color: #a828a0;
+    text-align: center;
+}
